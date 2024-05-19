@@ -5,6 +5,7 @@ int main()
 {
     OrderBook orderBook;
 
+    // id, price, quantity, side, symbol, timestamp
     Order buyOrder1 = {1, 100.0, 10, 'B', "AAPL", 0};
     Order buyOrder2 = {2, 101.0, 5, 'B', "AAPL", 0};
     Order sellOrder1 = {3, 99.0, 8, 'S', "AAPL", 0};
