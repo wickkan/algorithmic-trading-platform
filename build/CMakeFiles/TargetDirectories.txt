@@ -1,0 +1,8 @@
+/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/CMakeFiles/trading_platform.dir
+/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/CMakeFiles/test.dir
+/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/CMakeFiles/edit_cache.dir
+/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/CMakeFiles/rebuild_cache.dir
+/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/tests/CMakeFiles/tests.dir
+/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/tests/CMakeFiles/test.dir
+/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/tests/CMakeFiles/edit_cache.dir
+/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/tests/CMakeFiles/rebuild_cache.dir
