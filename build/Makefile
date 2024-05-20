@@ -200,6 +200,30 @@ src/OrderBook.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/OrderBook.cpp.s
 .PHONY : src/OrderBook.cpp.s
 
+src/RiskManager.o: src/RiskManager.cpp.o
+.PHONY : src/RiskManager.o
+
+# target to build an object file
+src/RiskManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o
+.PHONY : src/RiskManager.cpp.o
+
+src/RiskManager.i: src/RiskManager.cpp.i
+.PHONY : src/RiskManager.i
+
+# target to preprocess a source file
+src/RiskManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/RiskManager.cpp.i
+.PHONY : src/RiskManager.cpp.i
+
+src/RiskManager.s: src/RiskManager.cpp.s
+.PHONY : src/RiskManager.s
+
+# target to generate assembly for a file
+src/RiskManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/RiskManager.cpp.s
+.PHONY : src/RiskManager.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -241,6 +265,9 @@ help:
 	@echo "... src/OrderBook.o"
 	@echo "... src/OrderBook.i"
 	@echo "... src/OrderBook.s"
+	@echo "... src/RiskManager.o"
+	@echo "... src/RiskManager.i"
+	@echo "... src/RiskManager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

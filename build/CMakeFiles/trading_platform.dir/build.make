@@ -97,10 +97,24 @@ CMakeFiles/trading_platform.dir/src/OrderBook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_platform.dir/src/OrderBook.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp -o CMakeFiles/trading_platform.dir/src/OrderBook.cpp.s
 
+CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o: CMakeFiles/trading_platform.dir/flags.make
+CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o: /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/RiskManager.cpp
+CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o: CMakeFiles/trading_platform.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o -MF CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o.d -o CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/RiskManager.cpp
+
+CMakeFiles/trading_platform.dir/src/RiskManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_platform.dir/src/RiskManager.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/RiskManager.cpp > CMakeFiles/trading_platform.dir/src/RiskManager.cpp.i
+
+CMakeFiles/trading_platform.dir/src/RiskManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_platform.dir/src/RiskManager.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/RiskManager.cpp -o CMakeFiles/trading_platform.dir/src/RiskManager.cpp.s
+
 CMakeFiles/trading_platform.dir/src/main.cpp.o: CMakeFiles/trading_platform.dir/flags.make
 CMakeFiles/trading_platform.dir/src/main.cpp.o: /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp
 CMakeFiles/trading_platform.dir/src/main.cpp.o: CMakeFiles/trading_platform.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/trading_platform.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/trading_platform.dir/src/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_platform.dir/src/main.cpp.o -MF CMakeFiles/trading_platform.dir/src/main.cpp.o.d -o CMakeFiles/trading_platform.dir/src/main.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp
 
 CMakeFiles/trading_platform.dir/src/main.cpp.i: cmake_force
@@ -115,6 +129,7 @@ CMakeFiles/trading_platform.dir/src/main.cpp.s: cmake_force
 trading_platform_OBJECTS = \
 "CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.o" \
 "CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o" \
+"CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o" \
 "CMakeFiles/trading_platform.dir/src/main.cpp.o"
 
 # External object files for target trading_platform
@@ -122,10 +137,11 @@ trading_platform_EXTERNAL_OBJECTS =
 
 trading_platform: CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.o
 trading_platform: CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o
+trading_platform: CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o
 trading_platform: CMakeFiles/trading_platform.dir/src/main.cpp.o
 trading_platform: CMakeFiles/trading_platform.dir/build.make
 trading_platform: CMakeFiles/trading_platform.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable trading_platform"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable trading_platform"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/trading_platform.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,7 +8,7 @@ bool RiskManager::validateOrder(const Order &order)
     const int maxOrderSize = 100;
     if (order.quantity > maxOrderSize)
     {
-        std::cout << "Order rejected: Quantity exceeds maximum order size." << std::endl;
+        std::cout << "Order " << order.symbol << " " << order.quantity << " rejected: Quantity exceeds maximum order size." << std::endl;
         return false;
     }
 

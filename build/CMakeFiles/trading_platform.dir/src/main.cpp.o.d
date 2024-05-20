@@ -878,4 +878,5 @@ CMakeFiles/trading_platform.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/MarketDataHandler.h
+  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/MarketDataHandler.h \
+  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/RiskManager.h
