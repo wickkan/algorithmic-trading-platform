@@ -25,6 +25,12 @@
 },
 {
   "directory": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -isystem /opt/homebrew/include -isystem /opt/anaconda3/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/Simulator.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/Simulator.cpp",
+  "file": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/Simulator.cpp",
+  "output": "CMakeFiles/trading_platform.dir/src/Simulator.cpp.o"
+},
+{
+  "directory": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build",
   "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -isystem /opt/homebrew/include -isystem /opt/anaconda3/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/StrategyEngine.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/StrategyEngine.cpp",
   "file": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/StrategyEngine.cpp",
   "output": "CMakeFiles/trading_platform.dir/src/StrategyEngine.cpp.o"

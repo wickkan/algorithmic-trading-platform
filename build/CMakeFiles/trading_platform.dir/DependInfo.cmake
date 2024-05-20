@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/MarketDataHandler.cpp" "CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.o" "gcc" "CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.o.d"
   "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp" "CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o" "gcc" "CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o.d"
   "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/RiskManager.cpp" "CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o" "gcc" "CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o.d"
+  "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/Simulator.cpp" "CMakeFiles/trading_platform.dir/src/Simulator.cpp.o" "gcc" "CMakeFiles/trading_platform.dir/src/Simulator.cpp.o.d"
   "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/StrategyEngine.cpp" "CMakeFiles/trading_platform.dir/src/StrategyEngine.cpp.o" "gcc" "CMakeFiles/trading_platform.dir/src/StrategyEngine.cpp.o.d"
   "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp" "CMakeFiles/trading_platform.dir/src/main.cpp.o" "gcc" "CMakeFiles/trading_platform.dir/src/main.cpp.o.d"
   )
