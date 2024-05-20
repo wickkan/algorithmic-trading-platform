@@ -73,15 +73,15 @@ tests/CMakeFiles/tests.dir/test_main.cpp.o: tests/CMakeFiles/tests.dir/flags.mak
 tests/CMakeFiles/tests.dir/test_main.cpp.o: /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/tests/test_main.cpp
 tests/CMakeFiles/tests.dir/test_main.cpp.o: tests/CMakeFiles/tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/tests.dir/test_main.cpp.o"
-	cd /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tests.dir/test_main.cpp.o -MF CMakeFiles/tests.dir/test_main.cpp.o.d -o CMakeFiles/tests.dir/test_main.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/tests/test_main.cpp
+	cd /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tests.dir/test_main.cpp.o -MF CMakeFiles/tests.dir/test_main.cpp.o.d -o CMakeFiles/tests.dir/test_main.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/tests/test_main.cpp
 
 tests/CMakeFiles/tests.dir/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/test_main.cpp.i"
-	cd /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/tests/test_main.cpp > CMakeFiles/tests.dir/test_main.cpp.i
+	cd /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/tests/test_main.cpp > CMakeFiles/tests.dir/test_main.cpp.i
 
 tests/CMakeFiles/tests.dir/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/test_main.cpp.s"
-	cd /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/tests/test_main.cpp -o CMakeFiles/tests.dir/test_main.cpp.s
+	cd /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/tests/test_main.cpp -o CMakeFiles/tests.dir/test_main.cpp.s
 
 # Object files for target tests
 tests_OBJECTS = \

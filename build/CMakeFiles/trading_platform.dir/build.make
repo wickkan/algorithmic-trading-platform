@@ -73,29 +73,29 @@ CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o: CMakeFiles/trading_platform
 CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o: /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp
 CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o: CMakeFiles/trading_platform.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o -MF CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o.d -o CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o -MF CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o.d -o CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp
 
 CMakeFiles/trading_platform.dir/src/OrderBook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_platform.dir/src/OrderBook.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp > CMakeFiles/trading_platform.dir/src/OrderBook.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp > CMakeFiles/trading_platform.dir/src/OrderBook.cpp.i
 
 CMakeFiles/trading_platform.dir/src/OrderBook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_platform.dir/src/OrderBook.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp -o CMakeFiles/trading_platform.dir/src/OrderBook.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp -o CMakeFiles/trading_platform.dir/src/OrderBook.cpp.s
 
 CMakeFiles/trading_platform.dir/src/main.cpp.o: CMakeFiles/trading_platform.dir/flags.make
 CMakeFiles/trading_platform.dir/src/main.cpp.o: /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp
 CMakeFiles/trading_platform.dir/src/main.cpp.o: CMakeFiles/trading_platform.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trading_platform.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_platform.dir/src/main.cpp.o -MF CMakeFiles/trading_platform.dir/src/main.cpp.o.d -o CMakeFiles/trading_platform.dir/src/main.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trading_platform.dir/src/main.cpp.o -MF CMakeFiles/trading_platform.dir/src/main.cpp.o.d -o CMakeFiles/trading_platform.dir/src/main.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp
 
 CMakeFiles/trading_platform.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_platform.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp > CMakeFiles/trading_platform.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp > CMakeFiles/trading_platform.dir/src/main.cpp.i
 
 CMakeFiles/trading_platform.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_platform.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp -o CMakeFiles/trading_platform.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp -o CMakeFiles/trading_platform.dir/src/main.cpp.s
 
 # Object files for target trading_platform
 trading_platform_OBJECTS = \
