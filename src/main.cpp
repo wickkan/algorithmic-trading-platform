@@ -3,9 +3,13 @@
 #include "MarketDataHandler.h"
 #include "RiskManager.h"
 #include "StrategyEngine.h"
+#include "Logger.h"
 
 int main()
 {
+    Logger::init();
+    Logger::getLogger()->info("Starting trading platform");
+
     OrderBook orderBook;
     MarketDataHandler marketDataHandler;
     RiskManager riskManager;
@@ -21,8 +25,9 @@ int main()
     marketDataHandler.handleMarketData(data3, orderBook);
     marketDataHandler.handleMarketData(data4, orderBook);
 
-    // Execute trading strategy
     strategyEngine.executeStrategy(orderBook, marketDataHandler, riskManager);
+
+    Logger::getLogger()->info("Trading platform finished execution");
 
     return 0;
 }

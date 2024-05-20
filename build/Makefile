@@ -152,6 +152,30 @@ tests/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
+src/Logger.o: src/Logger.cpp.o
+.PHONY : src/Logger.o
+
+# target to build an object file
+src/Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/Logger.cpp.o
+.PHONY : src/Logger.cpp.o
+
+src/Logger.i: src/Logger.cpp.i
+.PHONY : src/Logger.i
+
+# target to preprocess a source file
+src/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/Logger.cpp.i
+.PHONY : src/Logger.cpp.i
+
+src/Logger.s: src/Logger.cpp.s
+.PHONY : src/Logger.s
+
+# target to generate assembly for a file
+src/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/Logger.cpp.s
+.PHONY : src/Logger.cpp.s
+
 src/MarketDataHandler.o: src/MarketDataHandler.cpp.o
 .PHONY : src/MarketDataHandler.o
 
@@ -175,30 +199,6 @@ src/MarketDataHandler.s: src/MarketDataHandler.cpp.s
 src/MarketDataHandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.s
 .PHONY : src/MarketDataHandler.cpp.s
-
-src/NetworkLayer.o: src/NetworkLayer.cpp.o
-.PHONY : src/NetworkLayer.o
-
-# target to build an object file
-src/NetworkLayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/NetworkLayer.cpp.o
-.PHONY : src/NetworkLayer.cpp.o
-
-src/NetworkLayer.i: src/NetworkLayer.cpp.i
-.PHONY : src/NetworkLayer.i
-
-# target to preprocess a source file
-src/NetworkLayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/NetworkLayer.cpp.i
-.PHONY : src/NetworkLayer.cpp.i
-
-src/NetworkLayer.s: src/NetworkLayer.cpp.s
-.PHONY : src/NetworkLayer.s
-
-# target to generate assembly for a file
-src/NetworkLayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/NetworkLayer.cpp.s
-.PHONY : src/NetworkLayer.cpp.s
 
 src/OrderBook.o: src/OrderBook.cpp.o
 .PHONY : src/OrderBook.o
@@ -307,12 +307,12 @@ help:
 	@echo "... test"
 	@echo "... tests"
 	@echo "... trading_platform"
+	@echo "... src/Logger.o"
+	@echo "... src/Logger.i"
+	@echo "... src/Logger.s"
 	@echo "... src/MarketDataHandler.o"
 	@echo "... src/MarketDataHandler.i"
 	@echo "... src/MarketDataHandler.s"
-	@echo "... src/NetworkLayer.o"
-	@echo "... src/NetworkLayer.i"
-	@echo "... src/NetworkLayer.s"
 	@echo "... src/OrderBook.o"
 	@echo "... src/OrderBook.i"
 	@echo "... src/OrderBook.s"

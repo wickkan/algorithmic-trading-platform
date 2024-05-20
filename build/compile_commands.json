@@ -1,37 +1,37 @@
 [
 {
   "directory": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build",
-  "command": "/usr/bin/clang++  -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/MarketDataHandler.cpp",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -isystem /opt/homebrew/include -isystem /opt/anaconda3/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/Logger.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/Logger.cpp",
+  "file": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/Logger.cpp",
+  "output": "CMakeFiles/trading_platform.dir/src/Logger.cpp.o"
+},
+{
+  "directory": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -isystem /opt/homebrew/include -isystem /opt/anaconda3/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/MarketDataHandler.cpp",
   "file": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/MarketDataHandler.cpp",
   "output": "CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.o"
 },
 {
   "directory": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build",
-  "command": "/usr/bin/clang++  -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/NetworkLayer.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/NetworkLayer.cpp",
-  "file": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/NetworkLayer.cpp",
-  "output": "CMakeFiles/trading_platform.dir/src/NetworkLayer.cpp.o"
-},
-{
-  "directory": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build",
-  "command": "/usr/bin/clang++  -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -isystem /opt/homebrew/include -isystem /opt/anaconda3/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp",
   "file": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp",
   "output": "CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o"
 },
 {
   "directory": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build",
-  "command": "/usr/bin/clang++  -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/RiskManager.cpp",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -isystem /opt/homebrew/include -isystem /opt/anaconda3/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/RiskManager.cpp",
   "file": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/RiskManager.cpp",
   "output": "CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o"
 },
 {
   "directory": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build",
-  "command": "/usr/bin/clang++  -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/StrategyEngine.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/StrategyEngine.cpp",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -isystem /opt/homebrew/include -isystem /opt/anaconda3/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/StrategyEngine.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/StrategyEngine.cpp",
   "file": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/StrategyEngine.cpp",
   "output": "CMakeFiles/trading_platform.dir/src/StrategyEngine.cpp.o"
 },
 {
   "directory": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build",
-  "command": "/usr/bin/clang++  -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/main.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -isystem /opt/homebrew/include -isystem /opt/anaconda3/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/main.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp",
   "file": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp",
   "output": "CMakeFiles/trading_platform.dir/src/main.cpp.o"
 },

@@ -4,12 +4,13 @@ project(AlgorithmicTradingPlatform)
 set(CMAKE_CXX_STANDARD 17)
 
 include_directories(include)
+
+find_package(spdlog REQUIRED)
+
 file(GLOB SOURCES "src/*.cpp")
 
-find_package(ZeroMQ REQUIRED)
-
 add_executable(trading_platform ${SOURCES})
-target_link_libraries(trading_platform zmq)
+target_link_libraries(trading_platform spdlog::spdlog)
 
 enable_testing()
 add_subdirectory(tests)
