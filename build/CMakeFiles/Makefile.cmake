@@ -12,6 +12,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.29.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.3/CMakeSystem.cmake"
   "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/tests/CMakeLists.txt"
+  "/opt/anaconda3/lib/cmake/ZeroMQ/ZeroMQConfig.cmake"
+  "/opt/anaconda3/lib/cmake/ZeroMQ/ZeroMQConfigVersion.cmake"
   "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"

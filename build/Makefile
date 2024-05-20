@@ -176,6 +176,30 @@ src/MarketDataHandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.s
 .PHONY : src/MarketDataHandler.cpp.s
 
+src/NetworkLayer.o: src/NetworkLayer.cpp.o
+.PHONY : src/NetworkLayer.o
+
+# target to build an object file
+src/NetworkLayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/NetworkLayer.cpp.o
+.PHONY : src/NetworkLayer.cpp.o
+
+src/NetworkLayer.i: src/NetworkLayer.cpp.i
+.PHONY : src/NetworkLayer.i
+
+# target to preprocess a source file
+src/NetworkLayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/NetworkLayer.cpp.i
+.PHONY : src/NetworkLayer.cpp.i
+
+src/NetworkLayer.s: src/NetworkLayer.cpp.s
+.PHONY : src/NetworkLayer.s
+
+# target to generate assembly for a file
+src/NetworkLayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/NetworkLayer.cpp.s
+.PHONY : src/NetworkLayer.cpp.s
+
 src/OrderBook.o: src/OrderBook.cpp.o
 .PHONY : src/OrderBook.o
 
@@ -286,6 +310,9 @@ help:
 	@echo "... src/MarketDataHandler.o"
 	@echo "... src/MarketDataHandler.i"
 	@echo "... src/MarketDataHandler.s"
+	@echo "... src/NetworkLayer.o"
+	@echo "... src/NetworkLayer.i"
+	@echo "... src/NetworkLayer.s"
 	@echo "... src/OrderBook.o"
 	@echo "... src/OrderBook.i"
 	@echo "... src/OrderBook.s"

@@ -147,6 +147,14 @@
 			"path" : "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
+			"isExternal" : true,
+			"path" : "/opt/anaconda3/lib/cmake/ZeroMQ/ZeroMQConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/anaconda3/lib/cmake/ZeroMQ/ZeroMQConfig.cmake"
+		},
+		{
 			"path" : "tests/CMakeLists.txt"
 		}
 	],

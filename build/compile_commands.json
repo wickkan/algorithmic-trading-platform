@@ -7,6 +7,12 @@
 },
 {
   "directory": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build",
+  "command": "/usr/bin/clang++  -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/NetworkLayer.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/NetworkLayer.cpp",
+  "file": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/NetworkLayer.cpp",
+  "output": "CMakeFiles/trading_platform.dir/src/NetworkLayer.cpp.o"
+},
+{
+  "directory": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/build",
   "command": "/usr/bin/clang++  -I/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o -c /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp",
   "file": "/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp",
   "output": "CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o"

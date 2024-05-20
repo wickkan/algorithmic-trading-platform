@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.o"
   "CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.o.d"
+  "CMakeFiles/trading_platform.dir/src/NetworkLayer.cpp.o"
+  "CMakeFiles/trading_platform.dir/src/NetworkLayer.cpp.o.d"
   "CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o"
   "CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o.d"
   "CMakeFiles/trading_platform.dir/src/RiskManager.cpp.o"
