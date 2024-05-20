@@ -1,5 +1,5 @@
-CMakeFiles/trading_platform.dir/src/main.cpp.o: \
-  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/main.cpp \
+CMakeFiles/trading_platform.dir/src/StrategyEngine.cpp.o: \
+  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/StrategyEngine.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
@@ -823,6 +823,7 @@ CMakeFiles/trading_platform.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdarg \
+  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/StrategyEngine.h \
   /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/OrderBook.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/is_transparent.h \
@@ -879,5 +880,4 @@ CMakeFiles/trading_platform.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/unary_negate.h \
   /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/MarketDataHandler.h \
-  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/RiskManager.h \
-  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/StrategyEngine.h
+  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/RiskManager.h

@@ -224,6 +224,30 @@ src/RiskManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/RiskManager.cpp.s
 .PHONY : src/RiskManager.cpp.s
 
+src/StrategyEngine.o: src/StrategyEngine.cpp.o
+.PHONY : src/StrategyEngine.o
+
+# target to build an object file
+src/StrategyEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/StrategyEngine.cpp.o
+.PHONY : src/StrategyEngine.cpp.o
+
+src/StrategyEngine.i: src/StrategyEngine.cpp.i
+.PHONY : src/StrategyEngine.i
+
+# target to preprocess a source file
+src/StrategyEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/StrategyEngine.cpp.i
+.PHONY : src/StrategyEngine.cpp.i
+
+src/StrategyEngine.s: src/StrategyEngine.cpp.s
+.PHONY : src/StrategyEngine.s
+
+# target to generate assembly for a file
+src/StrategyEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/StrategyEngine.cpp.s
+.PHONY : src/StrategyEngine.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -268,6 +292,9 @@ help:
 	@echo "... src/RiskManager.o"
 	@echo "... src/RiskManager.i"
 	@echo "... src/RiskManager.s"
+	@echo "... src/StrategyEngine.o"
+	@echo "... src/StrategyEngine.i"
+	@echo "... src/StrategyEngine.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
