@@ -2,6 +2,7 @@
 #define MARKETDATAHANDLER_H
 
 #include "OrderBook.h"
+#include "RiskManager.h"
 
 struct MarketData
 {
@@ -14,6 +15,9 @@ struct MarketData
 
 class MarketDataHandler
 {
+private:
+    RiskManager riskManager;
+
 public:
     void handleMarketData(const MarketData &data, OrderBook &orderBook);
 };
