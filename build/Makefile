@@ -152,6 +152,30 @@ tests/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
+src/MarketDataHandler.o: src/MarketDataHandler.cpp.o
+.PHONY : src/MarketDataHandler.o
+
+# target to build an object file
+src/MarketDataHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.o
+.PHONY : src/MarketDataHandler.cpp.o
+
+src/MarketDataHandler.i: src/MarketDataHandler.cpp.i
+.PHONY : src/MarketDataHandler.i
+
+# target to preprocess a source file
+src/MarketDataHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.i
+.PHONY : src/MarketDataHandler.cpp.i
+
+src/MarketDataHandler.s: src/MarketDataHandler.cpp.s
+.PHONY : src/MarketDataHandler.s
+
+# target to generate assembly for a file
+src/MarketDataHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trading_platform.dir/build.make CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.s
+.PHONY : src/MarketDataHandler.cpp.s
+
 src/OrderBook.o: src/OrderBook.cpp.o
 .PHONY : src/OrderBook.o
 
@@ -211,6 +235,9 @@ help:
 	@echo "... test"
 	@echo "... tests"
 	@echo "... trading_platform"
+	@echo "... src/MarketDataHandler.o"
+	@echo "... src/MarketDataHandler.i"
+	@echo "... src/MarketDataHandler.s"
 	@echo "... src/OrderBook.o"
 	@echo "... src/OrderBook.i"
 	@echo "... src/OrderBook.s"
