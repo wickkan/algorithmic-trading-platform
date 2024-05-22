@@ -11,9 +11,9 @@ int main()
     Logger::init();
     Logger::getLogger()->info("Starting trading platform");
 
+    // Create historical market data
     std::vector<MarketData> historicalData = {
-        // price, quantity, side (buy or sell), symbol, timestamp
-        // AAPL - Apple
+        // AAPL
         {100.0, 10, 'B', "AAPL", 0},
         {101.0, 5, 'B', "AAPL", 1},
         {99.0, 8, 'S', "AAPL", 2},
@@ -23,7 +23,7 @@ int main()
         {100.0, 20, 'B', "AAPL", 6},
         {99.5, 25, 'S', "AAPL", 7},
 
-        // MSFT - Microsoft Corporation
+        // MSFT
         {210.0, 50, 'B', "MSFT", 0},
         {211.0, 30, 'B', "MSFT", 1},
         {209.0, 40, 'S', "MSFT", 2},
@@ -33,7 +33,7 @@ int main()
         {211.0, 25, 'B', "MSFT", 6},
         {210.5, 30, 'S', "MSFT", 7},
 
-        // GOOGL - Google
+        // GOOGL
         {1500.0, 5, 'B', "GOOGL", 0},
         {1502.0, 3, 'B', "GOOGL", 1},
         {1498.0, 2, 'S', "GOOGL", 2},
@@ -43,7 +43,7 @@ int main()
         {1500.0, 8, 'B', "GOOGL", 6},
         {1499.5, 9, 'S', "GOOGL", 7},
 
-        // TSLA - Tesla
+        // TSLA
         {700.0, 10, 'B', "TSLA", 0},
         {705.0, 7, 'B', "TSLA", 1},
         {695.0, 5, 'S', "TSLA", 2},
@@ -53,7 +53,7 @@ int main()
         {700.0, 20, 'B', "TSLA", 6},
         {695.5, 25, 'S', "TSLA", 7},
 
-        // AMZN - Amazon
+        // AMZN
         {3100.0, 4, 'B', "AMZN", 0},
         {3105.0, 3, 'B', "AMZN", 1},
         {3090.0, 2, 'S', "AMZN", 2},

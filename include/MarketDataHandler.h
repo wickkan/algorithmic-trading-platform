@@ -2,7 +2,7 @@
 #define MARKETDATAHANDLER_H
 
 #include "OrderBook.h"
-#include "RiskManager.h"
+#include <atomic>
 
 struct MarketData
 {
@@ -15,11 +15,13 @@ struct MarketData
 
 class MarketDataHandler
 {
-private:
-    RiskManager riskManager;
-
 public:
+    MarketDataHandler() : orderIdCounter(0) {}
     void handleMarketData(const MarketData &data, OrderBook &orderBook);
+
+private:
+    std::atomic<int> orderIdCounter;
+    int generateOrderId();
 };
 
 #endif // MARKETDATAHANDLER_H

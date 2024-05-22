@@ -1803,7 +1803,6 @@ CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/MarketDataHandler.h
  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/OrderBook.h
- /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/RiskManager.h
 
 CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o
  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp

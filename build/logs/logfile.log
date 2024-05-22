@@ -11,3 +11,13 @@
 [2024-05-22 12:05:27.374] [basic_logger] [info] Starting simulation
 [2024-05-22 12:05:27.374] [basic_logger] [info] Simulation finished
 [2024-05-22 12:05:27.374] [basic_logger] [info] Trading platform finished execution
+[2024-05-22 12:08:54.562] [basic_logger] [info] Logger initialized
+[2024-05-22 12:08:54.564] [basic_logger] [info] Starting trading platform
+[2024-05-22 12:08:54.564] [basic_logger] [info] Starting simulation
+[2024-05-22 12:08:54.564] [basic_logger] [info] Simulation finished
+[2024-05-22 12:08:54.564] [basic_logger] [info] Trading platform finished execution
+[2024-05-22 12:10:12.766] [basic_logger] [info] Logger initialized
+[2024-05-22 12:10:12.768] [basic_logger] [info] Starting trading platform
+[2024-05-22 12:10:12.768] [basic_logger] [info] Starting simulation
+[2024-05-22 12:10:12.768] [basic_logger] [info] Simulation finished
+[2024-05-22 12:10:12.768] [basic_logger] [info] Trading platform finished execution

@@ -1800,8 +1800,7 @@ CMakeFiles/trading_platform.dir/src/MarketDataHandler.cpp.o: /Users/kanishkaw/De
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
   /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/MarketDataHandler.h \
-  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/OrderBook.h \
-  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/RiskManager.h
+  /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/OrderBook.h
 
 CMakeFiles/trading_platform.dir/src/OrderBook.cpp.o: /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/Availability.h \
@@ -6315,11 +6314,11 @@ CMakeFiles/trading_platform.dir/src/main.cpp.o: /Users/kanishkaw/Desktop/Tech/So
 
 /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/Simulator.h:
 
+/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/RiskManager.h:
+
 /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/RiskManager.cpp:
 
 /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/src/OrderBook.cpp:
-
-/Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/RiskManager.h:
 
 /Users/kanishkaw/Desktop/Tech/Software_Development/Cpp/algorithmic_trading_platform/include/MarketDataHandler.h:
 
