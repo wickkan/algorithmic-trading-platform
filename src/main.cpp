@@ -12,6 +12,7 @@ int main()
     Logger::getLogger()->info("Starting trading platform");
 
     std::vector<MarketData> historicalData = {
+        // price, quantity, side (buy or sell), symbol, timestamp
         // AAPL - Apple
         {100.0, 10, 'B', "AAPL", 0},
         {101.0, 5, 'B', "AAPL", 1},

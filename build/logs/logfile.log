@@ -6,3 +6,8 @@
 [2024-05-21 09:49:13.706] [basic_logger] [info] Starting simulation
 [2024-05-21 09:49:13.706] [basic_logger] [info] Simulation finished
 [2024-05-21 09:49:13.706] [basic_logger] [info] Trading platform finished execution
+[2024-05-22 12:05:27.371] [basic_logger] [info] Logger initialized
+[2024-05-22 12:05:27.374] [basic_logger] [info] Starting trading platform
+[2024-05-22 12:05:27.374] [basic_logger] [info] Starting simulation
+[2024-05-22 12:05:27.374] [basic_logger] [info] Simulation finished
+[2024-05-22 12:05:27.374] [basic_logger] [info] Trading platform finished execution
