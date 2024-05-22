@@ -4,6 +4,7 @@
 #include <map>
 #include <vector>
 #include <string>
+#include <iostream>
 
 struct Order
 {
@@ -24,6 +25,7 @@ private:
 public:
     void addOrder(const Order &order);
     void matchOrders();
+    void printOrderBook(); // Add this method for debugging
 };
 
 #endif // ORDERBOOK_H

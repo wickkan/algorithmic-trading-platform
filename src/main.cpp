@@ -63,9 +63,21 @@ int main()
         {3100.0, 8, 'B', "AMZN", 6},
         {3095.0, 9, 'S', "AMZN", 7}};
 
-    // Run the simulation
-    Simulator simulator;
-    simulator.runSimulation(historicalData);
+    OrderBook orderBook;
+    MarketDataHandler marketDataHandler;
+
+    for (const auto &data : historicalData)
+    {
+        marketDataHandler.handleMarketData(data, orderBook);
+    }
+
+    std::cout << "Order book before matching:" << std::endl;
+    orderBook.printOrderBook();
+
+    orderBook.matchOrders();
+
+    std::cout << "Order book after matching:" << std::endl;
+    orderBook.printOrderBook();
 
     Logger::getLogger()->info("Trading platform finished execution");
 

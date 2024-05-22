@@ -1,5 +1,4 @@
 #include "OrderBook.h"
-#include <iostream>
 
 void OrderBook::addOrder(const Order &order)
 {
@@ -30,6 +29,10 @@ void OrderBook::matchOrders()
             buyOrder.quantity -= quantity;
             sellOrder.quantity -= quantity;
 
+            std::cout << "Matched Order: Buy ID " << buyOrder.id
+                      << " and Sell ID " << sellOrder.id
+                      << " Quantity: " << quantity << std::endl;
+
             if (buyOrder.quantity == 0)
             {
                 buyIt->second.pop_back();
@@ -47,15 +50,30 @@ void OrderBook::matchOrders()
                     sellOrders.erase(sellIt->first);
                 }
             }
-
-            // Print matched orders
-            std::cout << "Matched Order: Buy ID " << buyOrder.id
-                      << " and Sell ID " << sellOrder.id
-                      << " Quantity: " << quantity << std::endl;
         }
         else
         {
             break;
+        }
+    }
+}
+
+void OrderBook::printOrderBook()
+{
+    std::cout << "Buy Orders:\n";
+    for (const auto &[price, orders] : buyOrders)
+    {
+        for (const auto &order : orders)
+        {
+            std::cout << "ID: " << order.id << " Price: " << price << " Quantity: " << order.quantity << std::endl;
+        }
+    }
+    std::cout << "Sell Orders:\n";
+    for (const auto &[price, orders] : sellOrders)
+    {
+        for (const auto &order : orders)
+        {
+            std::cout << "ID: " << order.id << " Price: " << price << " Quantity: " << order.quantity << std::endl;
         }
     }
 }
