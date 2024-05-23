@@ -24,6 +24,9 @@ void OrderBook::matchOrders()
             auto &buyOrder = buyIt->second.back();
             auto &sellOrder = sellIt->second.back();
 
+            // Execute the trade at the seller's price to ensure fairness
+            double tradePrice = sellIt->first;
+
             int quantity = std::min(buyOrder.quantity, sellOrder.quantity);
 
             buyOrder.quantity -= quantity;
@@ -31,7 +34,8 @@ void OrderBook::matchOrders()
 
             std::cout << "Matched Order: Buy ID " << buyOrder.id
                       << " and Sell ID " << sellOrder.id
-                      << " Quantity: " << quantity << std::endl;
+                      << " Quantity: " << quantity
+                      << " at Price: " << tradePrice << std::endl;
 
             if (buyOrder.quantity == 0)
             {
